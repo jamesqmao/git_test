@@ -1,0 +1,1001 @@
+  126  ls
+  127  exit
+  128  ls
+  129  cd /var/www
+  130  ls
+  131  scp -r AMC 10.10.221.215:/var/www/.
+  132  ls
+  133  cd ..
+  134  ls
+  135  exit
+  136  php -V
+  137  php -v
+  138  vim /etc/httpd/conf/httpd.conf 
+  139  <VirtualHost *:80>
+  140      ServerAdmin admin@alexandermccabe.com
+  141      DocumentRoot /var/www/AMC_TEST
+  142      ServerName devtest.alexandermccabe.com
+  143      ErrorLog logs/devtest.alexandermccabe.com-error_log
+  144      CustomLog logs/devtest.alexandermccabe.com-access_log common
+  145  ls
+  146  cd 
+  147  exit
+  148  cd /var/lib/mysql
+  149  ls
+  150  ll
+  151  pwd
+  152  vim /etc/sysconfig/iptables
+  153  vim /etc/sysconfig/iptables-config 
+  154  -A RH-Firewall-1-INPUT -m state –state NEW -m tcp -p tcp –dport 3306 -j ACCEPT
+  155  iptables -A RH-Firewall-1-INPUT -m state –state NEW -m tcp -p tcp –dport 3306 -j ACCEPT
+  156  iptables -l
+  157  iptables -L
+  158  iptables -A INPUT -m state –state NEW -m tcp -p tcp –dport 3306 -j ACCEPT
+  159  iptables -A INPUT -p tcp –dport 3306 -j ACCEPT
+  160  iptables -A INPUT -p tcp –-dport 3306 -j ACCEPT
+  161  iptables -A INPUT -p tcp –-dport 3306 -j ACCEPT
+  162  iptables -h
+  163  iptables -A INPUT -p tcp -m tcp --dport 3306 -j ACCEPT 
+  164  iptables -l
+  165  iptables -L
+  166  ;s
+  167  ls
+  168  cd /var/www
+  169  ls
+  170  vim /etc/httpd/conf/httpd.conf 
+  171  vim /etc/httpd/conf.d/ssl.conf 
+  172  ls
+  173  cd /etc/httpd/conf.d/
+  174  ls
+  175  cd SSL
+  176  ls
+  177  cd AMC
+  178  ls
+  179  ll
+  180  cd ..
+  181  ll
+  182  cd ..
+  183  ll
+  184  cd ..
+  185  cd conf
+  186  ls
+  187  vim httpd.conf 
+  188  vim ../conf.d/ssl.conf 
+  189  vim /etc/hosts
+  190  ping beta.alexandermccabe.com
+  191  namp -A
+  192  nmap -A
+  193  nmap 
+  194  cd /etc/
+  195  ls
+  196  cd mail
+  197  ls
+  198  vin sendmail.cf 
+  199  vim sendmail.cf 
+  200  vim sendmail.mc
+  201  pear list
+  202  cd /var/www
+  203  ls
+  204  ll
+  205  vim /etc/php.ini
+  206  cd AMC_FILESTORAGE_PROD/
+  207  ls
+  208  ll
+  209  service httpd stop
+  210  vim /etc/httpd/conf/httpd.conf 
+  211  cd /etc/httpd/conf
+  212  ls
+  213  cp httpd.BK_conf
+  214  cp httpd.conf httpd.BK_conf
+  215  vim httpd.conf 
+  216  cd ..
+  217  cd conf.d/
+  218  ls
+  219  cp ssl.conf ssl.BK_conf
+  220  vim ssl.conf 
+  221  cd ..
+  222  cd conf
+  223  vim httpd.conf 
+  224  jobs
+  225  fg
+  226  vim ../conf.d/ssl.conf 
+  227  vim /etc/hosts
+  228  cd /var/www
+  229  ls
+  230  exit
+  231  vim /etc/httpd/conf/httpd.conf 
+  232  vim /etc/httpd/conf.d/ssl.conf 
+  233  service httpd start
+  234  top
+  235  cd /var/www
+  236  ks
+  237  ls
+  238  ll
+  239  exit
+  240  hostname devtest.alexandermccabe.com
+  241  hostname
+  242  exit
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd var/www
+  247  ls
+  248  nmap -sS locahost
+  249  crontab -l
+  250  crontab -e
+  251  crontab -e
+  252  vim /etc/hosts
+  253  hostname
+  254  dig alaexandermccabe.com
+  255  dig alaexandermccabe.com MX
+  256  dig alexandermccabe.com MX
+  257  exit
+  258  cd /var/www/AMC_TEST/
+  259  find . | xargs grep 'VMCC'
+  260  find . | xargs grep 'new vmcc()'
+  261  find . | xargs grep 'transaction'
+  262  find . | xargs grep 'transaction t'
+  263  find . | xargs grep 'transaction t,'
+  264  vim /etc/mail/sendmail.cf
+  265  ssh 10.10.221.154
+  266  exit
+  267  crontab -l
+  268  crontab -e
+  269  crontab -l
+  270   /usr/bin/mysqldump -uroot -ppark101SIDEOP --opt amc > /var/www/DBBACKUP/amc.sql
+  271  /usr/bin/mysqldump -uroot -ppark101SIDEOP --opt amc_test > /var/www/DBBACKUP/amc_test.sql
+  272  /usr/bin/mysqldump -uroot -ppark101SIDEOP --opt AMC_CR > /var/www/DBBACKUP/amc_cr.sql
+  273  mysql
+  274  mysql -uroot -p
+  275  mysql -uroot -p
+  276  mysql -uroot -p
+  277  mysql -uroot -p
+  278  crontab -l
+  279  crontab -e
+  280  crontab -l
+  281  cd /var/www/AMC_TEST/
+  282  find . | xargs grep 'https://'
+  283  find . | xargs grep 'https://www.alex'
+  284  find . | xargs grep 'HOME_URL'
+  285  find . | xargs grep 'HOME_URL''
+  286  ;
+  287  find . | xargs grep 'https://www.alexandermccabe.com'
+  288  crontab -l
+  289  crontab -l
+  290  crontab -e
+  291  cd /var/www/AMC_TEST/
+  292  find . | xargs grep 'Appraiser Sign On'
+  293  crontab -l
+  294  /bin/date + "%r"
+  295  date +"%r"
+  296  date +"%a"
+  297  date +"%g"
+  298  date +"%u"
+  299  crontab -e
+  300  crontab -l
+  301  crontab -e
+  302  vi amctest.sh
+  303  vi amctest.sh
+  304  vi amctest.sh
+  305  vi amctest.sh 
+  306  time
+  307  date
+  308  vi amctest.sh 
+  309  date +"%r"
+  310  /bin/date +"%u"
+  311  /usr/bin/mysqldump -uroot -ppark101SIDEOP --opt amc_test > /var/www/DBBACKUP/amc_test.'/bin/date +"%u"'.sql
+  312  /usr/bin/mysqldump -uroot -ppark101SIDEOP --opt amc_test > /var/www/DBBACKUP/amc_test.'/bin/date +"%u"'.sql
+  313  /usr/bin/mysqldump -uroot -ppark101SIDEOP --opt amc_test > /var/www/DBBACKUP/amc_test.'/bin/date +"\%u"'.sql
+  314  vi
+  315  vi amctest.sh
+  316  amctest.sh
+  317  ls
+  318  /bin/sh amctest.sh
+  319  /bin/sh amctest.sh
+  320  /bin/sh amctest.sh
+  321  /bin/sh amctest.sh
+  322  /bin/sh amctest.sh
+  323  /bin/sh amctest.sh
+  324  /bin/sh amctest.sh
+  325  cd /var/www/DBBACKUP/
+  326  ls
+  327  /bin/sh amctest.sh
+  328  /bin/sh /home/james/amctest.sh
+  329  ls
+  330  ls -l
+  331  /bin/sh /home/james/amctest.sh
+  332  crontab -l
+  333  crontab -e
+  334  crontab -e
+  335  crontab -e
+  336  crontab -l
+  337  crontab -e
+  338  crontab -l
+  339  crontab -e
+  340  crontab -e
+  341  crontab -e
+  342  crontab -l
+  343  cat ~/id_rsa.pub >> ~/.ssh/authorized_keys 
+  344  cd /home/james
+  345  cat ~/id_rsa.pub >> ~/.ssh/authorized_keys 
+  346  crontab -l
+  347  /bin/sh /home/james/dbbackup.sh
+  348  vi dbbackup.sh 
+  349  scp  /var/www/DBBACKUP/amc_4.sql root@alexandermccabe.com:
+  350  ssh-keygen -t rsa
+  351  scp  /var/www/DBBACKUP/amc_4.sql root@alexandermccabe.com:
+  352  cd /var/www/AMC_TEST/
+  353  find . | xargs grep 'ttt'
+  354  crontab -e
+  355  crontab -l
+  356  cd /var/www/AMC && /usr/bin/php -q /var/www/AMC/Modules/AppraisalOrder/mailProcess.php /dev/null 2>&1
+  357  crontab -e
+  358  crontab -l
+  359  crontab -e
+  360  crontab -l
+  361  time
+  362  date
+  363  date
+  364  useradd -m -s /bin/bash bernardo
+  365  /usr/sbin/useradd bernardo
+  366  /usr/sbin/passwd bernardo
+  367  passwd bernardo
+  368  exit
+  369  useradd bernardo
+  370  adduser bernardo
+  371  su
+  372  exit
+  373  ls
+  374  vim httpd.conf 
+  375  service httpd restart
+  376  cd
+  377  service httpd restart
+  378  /etc/init.d/httpd  restart
+  379  exit
+  380  vi /etc/sudoers
+  381  cd /var/www
+  382  cp -rf /var/www/AMC_TEST/* /var/www/VANNESS
+  383  find -name httpd
+  384  cd ..
+  385  cd ..
+  386  cd ..
+  387  find -name httpd
+  388  find -name httpd.conf
+  389  vi /etc/httpd/conf/httpd.conf
+  390  setfacl default:u:bernardo:7 /var/www/VANNESS/
+  391  setfacl -s default:u:bernardo:7 /var/www/VANNESS/
+  392  man setfacl
+  393  setfacl -m default:u:bernardo:7 /var/www/VANNESS/
+  394  ll /var/www/VANNESS/
+  395  ll -d /var/www/VANNESS/
+  396  setfacl .
+  397  man setfacl
+  398  getfacl /var/www/VANNESS/
+  399  exit
+  400  ll
+  401  cd /var/www/VANNESS/
+  402  find . -type d 
+  403  find . -type d -exec setfacl -m default:u:bernardo:7 {} \;
+  404  ll
+  405  find . -type f -exec setfacl -m u:bernardo:7 {} \;
+  406  ll\
+  407  ll
+  408  exit
+  409  cd /etc/httpd/conf.d
+  410  ls
+  411  vi welcome.conf 
+  412  cd ..
+  413  ls
+  414  cd conf
+  415  ls
+  416  vi httpd.conf
+  417  /etc/init.d/httpd restart
+  418  whereis apache
+  419  cd ..
+  420  cd ..
+  421  cd ..
+  422  whereis apache
+  423  find / -type f -name httpd
+  424  ls
+  425  cd /etc
+  426  ls
+  427  cd ..
+  428  find / -type f -name httpd.conf
+  429  find / -type f -name named.conf
+  430  nslookup
+  431  host
+  432  cd /var/www
+  433  ls
+  434  ls -l VANNESS/
+  435  which httpd
+  436  vi /var/log/httpd/error_log 
+  437  ping devvanness.alexandermccabe.com
+  438  vi /etc/httpd/conf/httpd.conf
+  439  vim /etc/hosts
+  440  ping devbroker.parksidelending.com
+  441  jobs
+  442  fg 1
+  443  pint devtest.alexandermccabe.com
+  444  ping devtest.alexandermccabe.com
+  445  ping www.alexandermccabe.com
+  446  ping devvanness.alexandermccabe.com
+  447  ping devtest.alexandermccabe.com
+  448  mysql
+  449  mysql -uroot -p
+  450  service mysqld status
+  451  service mysqld stop
+  452  service httpd stop
+  453  shutdown
+  454  shutdown -h
+  455  shutdown -h -t2
+  456  shutdown -h -t
+  457  shutdown -h -t 3
+  458  shutdown -h -t2
+  459  shutdown -h -tnow
+  460  shutdown -h -t now
+  461  shutdown -h now
+  462  service httpd start
+  463  srevice mysqld start
+  464  service mysqld start
+  465  service sendmail start
+  466  ping 10.10.221.14
+  467  ping 10.10.221.14
+  468  ping 10.10.221.14
+  469  ping 10.10.221.14
+  470  ping 10.10.221.14
+  471  ping 10.10.221.14
+  472  ping 10.10.221.14
+  473  ping 10.10.221.14
+  474  ping 10.10.221.14
+  475  ssh 10.10.221.14
+  476  exit
+  477  ll
+  478  cd /var/www/VANNESS/
+  479  ll
+  480  findr . 'user' | more
+  481  findr . "dbInsert('user"
+  482  findr . "dbInsert"
+  483  findr . 'dbInsert("user'
+  484  vim Modules/Administrator/administrator
+  485  vim Modules/Administrator/administrators.php 
+  486  exit
+  487  cd /var/www/AMC_TEST
+  488  find . | xargs grep 'marker2'
+  489  find . | xargs grep 'markers2'
+  490  cd ..
+  491  cd AMC
+  492  find . | xargs grep 'markers2'
+  493  crontab -l
+  494  cd /var/www/AMC_TEST
+  495  ls
+  496  scp -r /var/www/AMC_TEST/iWebApp/ root@alexandermccabe.com:/root 
+  497  service mysqld status
+  498  exit
+  499  crontab -l
+  500  crontab -e
+  501  crontab -l
+  502  crontab -l
+  503   /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  504  crontab -e
+  505  date
+  506   /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  507   /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  508   /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  509  crontab -l
+  510  cd /var/www/AMC_TEST && /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  511  cd /var/www/AMC_TEST && /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  512  cd /var/www/AMC_TEST && /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  513  cd /var/www/AMC_TEST && /usr/bin/php -q /var/www/AMC_TEST/Modules/Report/tempHoldSend.php /dev/null 2>&1
+  514  crontab -e
+  515  date
+  516  date
+  517  date
+  518  crontab -e
+  519  crontab -l
+  520  ab -n 100 -c 10 http://www.yahoo.com/
+  521  ab -n 100 -c 10 http://www.alexandermccabe.com/
+  522  ab -n 100 -c 10 http://www.jidutu-training.org/
+  523  ab -n 1000 -c 100 http://www.jidutu-training.org/
+  524  ab -n 50 -c 5 http://www.jidutu-training.org/
+  525  ab -n 50 -c 5 http://www.jidutu-wiki.org
+  526  ab -n 50 -c 5 http://www.jidutu-wiki.org/
+  527  ab -n 1000 -c 100 http://www.jidutu-wiki.org/
+  528   nano /etc/sysconfig/network
+  529  hostname
+  530  cd ..
+  531  du -sh /*
+  532  df -h
+  533  du -sh /var/*
+  534  du -sh /var/lib/*
+  535  du -sh /var/lib/mysql/*
+  536  du -sh /var/www/*
+  537  df -h
+  538  du -sh /var/www/AMC_FILESTORAGE_PROD/*
+  539  du -sh /var/www/AMC_FILESTORAGE_PROD/*
+  540  du -sh /var/www/AMC_FILESTORAGE_PROD/*
+  541  du -sh /var/www/AMC_FILESTORAGE_PROD/*
+  542  df -h
+  543  du -sh /*
+  544  du -sh /root/*
+  545  df -h
+  546  crontab -l
+  547  crontab -e
+  548  cdf -lh
+  549  df -lh
+  550  ls
+  551  cd /var/log/mysqld.log 
+  552  ls
+  553  service mysqld status
+  554  top
+  555  exit
+  556  cd /var/www
+  557  ls
+  558  exit
+  559  vim /my.cnf
+  560  vim /etc/my.cnf
+  561  history
+  562  yum 
+  563  rpmbuild --rebuild yum*.src.rpm
+  564  rpm -qa --last
+  565  rpm -q yum
+  566  pm --force -Uvh python-elementtree-1.2.6-5.i386.rpm
+  567  rpm --force -Uvh python-elementtree-1.2.6-5.i386.rpm
+  568  yum
+  569  yum install s3cmd
+  570  vi /etc/yum.repos.d/s3tool.repo 
+  571  yum install s3cmd
+  572  s3cmd --configure
+  573  s3cmd --configure
+  574  s3cmd ls
+  575  s3cmd put -recursive /var/www/AMC_FILESTORAGE_PROD/Orders/6104 s3://amappraisals/
+  576  s3cmd put --recursive /var/www/AMC_FILESTORAGE_PROD/Orders/6104 s3://amappraisals/
+  577  s3cmd put --recursive /var/www/AMC_FILESTORAGE_PROD/Orders/6104/ s3://amappraisals/
+  578  cd /var/www/AMC_FILESTORAGE_PROD/Orders/
+  579  s3cmd put --recursive 6104 s3://amappraisals/
+  580  cd 6104
+  581  ls
+  582  s3cmd put --recursive /var/www/AMC_FILESTORAGE_PROD/Orders/2104/ s3://amappraisals/
+  583  cd ..
+  584  ls
+  585  cd Orders/
+  586  ls
+  587  cd ..
+  588  cd Appraisers/
+  589  ls
+  590  cd 122
+  591  ls
+  592  cd ..
+  593  cd ..
+  594  s3cmd put --recursive /var/www/AMC_FILESTORAGE_PROD/Appraisers/122/ s3://amappraisals/
+  595  vi /var/lib/mysql/sl
+  596  cd /var/lib/mysql/
+  597  ls
+  598  df -h
+  599  df -h
+  600  crontab -l
+  601  mysql
+  602  mysql -uroot -p
+  603  df -h
+  604  du -sh /*
+  605  du -sh /root/*
+  606  lshw 
+  607  dmidecode
+  608  dmidecode -t 16
+  609  cat /proc/meminfo
+  610  cat /proc/cpuinfo
+  611  free -m
+  612  free -m
+  613  free -m
+  614  free -m shows
+  615  ps aux
+  616  free -m shows
+  617  top
+  618  ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10
+  619  CPU   PID USER     COMMAND
+  620  uptime
+  621  ps -ef | grep username
+  622  cd ..
+  623  cd ..
+  624  cd ..
+  625  find -name .cf
+  626  cd /etc/mysql
+  627  cd etc
+  628  ls
+  629  vi my.cnf 
+  630  cd /var
+  631  cd log
+  632  vi mysqld.log 
+  633  cd /var/www/AMC_TEST/
+  634  find . | xargs grep 'AMCToolBar'
+  635  find . | xargs grep 'AMCTool'
+  636  df -h
+  637  free -m
+  638  pear install Crypt_HMAC
+  639  pear install --onlyreqdeps HTTP_Request
+  640  df -h
+  641  find . | xargs grep 'zillow'
+  642  find . | xargs grep 'X1-ZWz1bt8hvs7pjf_305s0'
+  643  find . | xargs grep '
+  644  '
+  645  find . | xargs grep '
+  646  '
+  647  find . | xargs grep 'ZWSID'
+  648  ls
+  649  find . | xargs grep 'qinglian'
+  650  cd /root
+  651  yum install s3cmd
+  652  yum install cElementTree
+  653  wget http://s3tools.org/repo/CentOS_5/s3tools.repo
+  654  yum install s3cmd
+  655  lsb_release -a
+  656  yum install s3cmd
+  657  yum-2.4.1-1.fc4.noarch.rpm 
+  658  python
+  659  wget http://archives.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/os/Fedora/RPMS/python-elementtree-1.2.6-5.i386.rpm
+  660  rpm -Uvh .oldpackage python-elementtree-1.2.6-5.i386.rpm 
+  661  yum update
+  662  yum install s3cmd
+  663  yum
+  664  -q python-elementtree
+  665  rpm -q python-elementtree
+  666  rpm -q .whatrequires python-elementtree
+  667  rpm -q -whatrequires python-elementtree
+  668  rpm -q --whatrequires python-elementtree
+  669  wget 
+  670  http://packages.sw.be/python-elementtree/python-elementtree-1.2.6-7.el5.test.x86_64.rpm
+  671   
+  672  wget 
+  673  http://packages.sw.be/python-elementtree/python-elementtree-1.2.6-7.el5.test.x86_64.rpm
+  674   .2010-07-27 03:46:33. 
+  675  wget http://packages.sw.be/python-elementtree/python-elementtree-1.2.6-7.el5.test.x86_64.rpm
+  676  ls
+  677  rpm -Uvh python-elementtree-1.2.6-7.el5.test.x86_64.rpm
+  678  yum install gcc
+  679  vi /etc/yum.repos.d/s3tool.repo
+  680  yum install s3cmd
+  681  wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
+  682  wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add 
+  683  wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key
+  684  apt-key add -
+  685  find . | xargs grep 'broker_lender'
+  686  cd /var/www/AMC_TEST/
+  687  find . | xargs grep 'broker_lender'
+  688  cd /var/www/AMC_TEST/
+  689  find . | xargs grep 'count(lender_fk)'
+  690  df -h
+  691  mysql -urrot -p
+  692  mysql -uroot -p
+  693  vi /etc/my.cnf
+  694  dmesg | grep ^Memory
+  695  free -m
+  696  top
+  697  ps -auxf | sort -nr -k 4 | head -10 
+  698  free -m
+  699  df -h
+  700  cat /proc/cpuinfo
+  701  uname -a
+  702  cat /proc/cpuinfo | egrep "physical\ id|core\ id"
+  703  cat /proc/cpuinfo | grep processor | wc -l
+  704  vmstat 5
+  705  top
+  706  ps -eo pcpu,pid,user,args | sort -r -k1 | less
+  707  df -h
+  708  dmidecode --type 17
+  709  cat /proc/meminfo
+  710  date
+  711  host local
+  712  host
+  713  host -dvs
+  714  host -dvs local*
+  715  host -dvs local
+  716  cd /
+  717  find . | xargs grep 'MX'
+  718  mail -s 'ddd' james@alexandermccabe.com
+  719  service sendmail restart
+  720  ping alexandermccabe.com.outbound10.mxlogic.net
+  721  dig +short alexandermccabe.com.outbound10.mxlogic.net
+  722  PAM-1.0
+  723  %PAM-1.0
+  724  yum install cyrus-sasl-plain
+  725   m4 /etc/mail/sendmail.mc > /etc/sendmail.cf 
+  726  ec/etc/mail
+  727  cd /etc/mail
+  728  make access.db -C /etc/mail
+  729  chkconfig saslauthd on
+  730  service saslauthd start
+  731  sendmail restart
+  732  sendmail start
+  733  service sendmail restart
+  734  make access.db -C /etc/mail
+  735  service saslauthd start
+  736  service saslauthd restart
+  737  service sendmail restart
+  738  ping amc-sbs.amc.local
+  739   m4 /etc/mail/sendmail.mc > /etc/sendmail.cf 
+  740  service sendmail restart
+  741  ping devtest.alexandermccabe.com
+  742  ping amc-sbs.amc.local
+  743   m4 /etc/mail/sendmail.mc > /etc/sendmail.cf 
+  744  service sendmail restart
+  745  ps ax | grep sendmail
+  746   netstat -tnlp | grep sendmail
+  747  df -h
+  748  EXIT
+  749  exit
+  750  ping 10.10.221.200
+  751  ssh 10.10.221.200
+  752  ssh 10.10.221.200
+  753  trace 16650
+  754  strace -p 16650
+  755  crontab -l
+  756  cd /
+  757  find -name php.ini
+  758  vi /etc/php.ini
+  759  service httpd restart
+  760  /usr/bin/php phpinfo();
+  761  dmesg | grep -n kernel
+  762  df -h
+  763   cat /proc/meminfo
+  764  free -t -m
+  765  free -t -m
+  766  free -m shows 
+  767  vmstat 5
+  768  cd SELECT loan_num, reference_num, borrower_f_name, borrower_l_name, broker_f_name, broker_l_name, lender_fee_amt_1, card_holder,
+  769  STATUS FROM `appraisal_order`
+  770  WHERE date_submitted > '2012-02-01'
+  771  AND card_holder = 'broker' and status<>'Cancelled' 
+  772  cd /var/www/AMC_FILESTORAGE/Order/10
+  773  cd /var
+  774  cd www
+  775  ls
+  776  cd AMC_FILESTORAGE
+  777  cd Order
+  778  ls
+  779  cd Orders
+  780  cd 10
+  781  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V3.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  782  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V3.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  783  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V3.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  784  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V3.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  785  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V5.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  786  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V5.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  787  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V5.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  788  cd /root
+  789  rpm -Uvh http://chrisschuld.com/centos52/jasper-libs-1.900.1-8.i386.rpm
+  790  rpm -Uvh http://chrisschuld.com/centos52/jasper-1.900.1-8.i386.rpm
+  791  rpm -Uvh http://chrisschuld.com/centos52/jasper-utils-1.900.1-8.i386.rpm
+  792  yum install libglut.so.3
+  793  rpm -Uvh http://chrisschuld.com/centos52/jasper-utils-1.900.1-8.i386.rpm
+  794  rpm -Uvh http://chrisschuld.com/centos52/jasper-devel-1.900.1-8.i386.rpm
+  795  yum install libjpeg-devel
+  796  rpm -Uvh http://chrisschuld.com/centos52/jasper-devel-1.900.1-8.i386.rpm
+  797  rpm -Uvh http://chrisschuld.com/centos52/ghostscript-8.63-1.i386.rpm
+  798  rpm -Uvh http://chrisschuld.com/centos52/ghostscript-devel-8.63-1.i386.rpm
+  799  rpm -Uvh http://chrisschuld.com/centos52/ghostscript-gtk-8.63-1.i386.rpm
+  800  cd /var/www/AMC_FILESTORAGE/Orders/10
+  801  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V5.pdf -dNOPAUSE -dBATCH  Appraisal_20090506002_V3.tiff
+  802  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=Appraisal_20090506002_V5.pdf -dNOPAUSE -dBATCH  testV3.tiff
+  803  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=test.pdf -dNOPAUSE -dBATCH  testV3.tiff
+  804  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=test.pdf -dNOPAUSE -dBATCH  test.tiff
+  805  gs -SDEVICE=tiffg4 -r600x600 -sPAPERSIZE=letter -sOutputFile=test.pdf -dNOPAUSE -dBATCH  test.tiff
+  806  find . | xargs grep 'czcxz@'
+  807  cd /var/www/AMC_TEST
+  808  find . | xargs grep 'czcxz@'
+  809  free -t -m
+  810  crontab -l
+  811  crontab -e
+  812  crontab -e
+  813  crontab -e
+  814  crontab -l
+  815  crontab -e
+  816  crontab -e
+  817  cd /tmp
+  818  ls
+  819  cd ..
+  820  chmod -R 777 tmp
+  821  cd /var/www/AMC_TEST
+  822  find . | xargs grep 'reference_num ='
+  823  find . | xargs grep ' reference_num ='
+  824  find . | xargs grep ' reference_num='
+  825  service mysqld status
+  826  service mysql start
+  827  service mysqld start
+  828  service httpd start
+  829  exit
+  830  service mail status
+  831  exit
+  832  service mysqld start
+  833  exit
+  834  crontab -l
+  835  service httpd start
+  836  hostname
+  837  vi /etc/hosts
+  838  ping optimus.com
+  839  hostname
+  840  hostname alexandermccabe.com
+  841  hostname
+  842  service sendmail relaod
+  843  sendmail status
+  844  service sendmail status
+  845  service sendmail restart
+  846  mail -s 'fdsf' james@alexandermccabe.com
+  847  hostname optimus.com
+  848  service sendmail restart
+  849  mail -s 'fdsf' james@alexandermccabe.com
+  850  vi /etc/hosts
+  851  hostname
+  852  cd /etc
+  853  ls
+  854  cd httpd
+  855  ls
+  856  vi conf/httpd.conf
+  857  vi /etc/resolv.conf
+  858  vi /etc/resolv.conf
+  859  nc -l 7777
+  860  service sendmail restart
+  861  cat /etc/resolv.conf
+  862  dig google.com
+  863  cat /etc/resolv.conf
+  864  ping alexandermccabe.com.outbound10.mxlogic.net
+  865  cat /etc/host.conf
+  866  cat /etc/hosts
+  867  hostname
+  868  ping optimus.com
+  869  hostname
+  870  cat /etc/resolv.conf
+  871  cat /etc/mailname
+  872  cat /etc/sysconfig/network
+  873  cat /etc/hosts
+  874  cat /var/named
+  875  /etc/init.d/mysqld restart
+  876  /etc/init.d/mysqld restart
+  877  top
+  878  /etc/init.d/mysqld restart
+  879  top
+  880  /etc/init.d/mysqld restart
+  881  vi /etc/my.conf
+  882  cd /etc
+  883  ls
+  884  vi /etc/my.cnf
+  885  vi /etc/my.cnf
+  886  top
+  887  vi /etc/my.cnf
+  888  /etc/init.d/mysqld restart
+  889  top
+  890  vi /etc/my.cnf
+  891  /etc/init.d/mysqld restart
+  892  free -m
+  893  /etc/init.d/mysqld restart
+  894  /etc/init.d/mysqld restart
+  895  /etc/init.d/mysqld restart
+  896  free -m
+  897  top
+  898  free -m
+  899  ping alexandermccabe.com
+  900  ping alexandermccabe.com
+  901  ping alexandermccabe.com
+  902  ping alexandermccabe.com
+  903  ping alexandermccabe.com
+  904  ping alexandermccabe.com
+  905  free -m
+  906  LS
+  907  ls
+  908  crontab -l
+  909  scp  /var/www/DBBACKUP/amc_$taday.sql root@alexandermccabe.com:
+  910  scp  /var/www/DBBACKUP/amc_1.sql root@alexandermccabe.com:
+  911  crontab -l
+  912  cd /var/www/AMC_TEST/
+  913  find . | xargs grep 'xml_1004'
+  914  find . | xargs grep 'T-Mobil'
+  915  find . | xargs grep 'txt.att.net'
+  916  find . | xargs grep 'att.net'
+  917  find . | xargs grep '5156981'
+  918  cd .ssh
+  919  cat id_rsa.pub-hostb >> authorized_keys
+  920  chmod 600 authorized_keys
+  921  eixt
+  922  exit
+  923  scp  /var/www/DBBACKUP/amc_test_3.sql root@database.alexandermccabe.com:/root
+  924  scp  /var/www/DBBACKUP/amc_test_3.sql root@database.alexandermccabe.com:/root
+  925  scp  /var/www/DBBACKUP/amc_test_3.sql root@10.10.221.201:/root
+  926  scp  /var/www/DBBACKUP/amc_3.sql root@10.10.221.201:/root
+  927  scp  /var/www/DBBACKUP/amc_cr_3.sql root@10.10.221.201:/root
+  928  ssh-keygen .t rsa
+  929  ssh-keygen -t rsa
+  930  scp ~/.ssh/id_rsa.pub joker@10.10.221.201:.ssh/id_rsa.pub-hostb 
+  931  scp ~/.ssh/id_rsa.pub root@10.10.221.201:.ssh/id_rsa.pub-hostb 
+  932  ssh root@10.10.221.201
+  933  scp  /var/www/DBBACKUP/amc_test_2.sql root@10.10.221.201:/root
+  934  scp ~/.ssh/id_rsa.pub root@10.10.221.201:.ssh/id_rsa.pub-hostb 
+  935  ssh root@10.10.221.201
+  936  ssh root@10.10.221.201
+  937  crontab -l
+  938  telnet 10.10.221.211 22
+  939  telnet 10.10.221.211 22
+  940  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+  941  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+  942  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+  943  vi /etc/my.cnf
+  944  echo X | telnet -e X 10.10.221.201 3306
+  945  nc -z -w1 10.10.221.201 3306
+  946  ping devtest.alexandermccabe.com
+  947  echo X | telnet -e X 10.10.221.201 3306
+  948  echo X | telnet -e X 10.10.221.201 3306
+  949  echo X | telnet -e X 10.10.221.201 3306
+  950  echo X | telnet -e X 10.10.221.201 2788
+  951  echo X | telnet -e X 10.10.221.201 3306
+  952  service nscd restart 
+  953  echo X | telnet -e X 10.10.221.201 3306
+  954  ping 10.10.221.201
+  955  route
+  956  traceroute 10.10.221.201
+  957  cat /etc/sysconfig/network-scripts/ifcfg-eth0 
+  958  echo X | telnet -e X 10.10.221.201 3306
+  959  echo X | telnet -e X 10.10.221.201 3306
+  960  telnet 10.10.221.201 3306
+  961  ping 10.10.221.201
+  962  ping 10.10.221.201 3306
+  963  telnet 10.10.221.201 3306
+  964  telnet 10.10.221.201 3306
+  965  iptables --list
+  966  vi /etc/sysconfig/iptables
+  967  cd /etc/
+  968  ls
+  969  telnet 10.10.221.201 3306
+  970  crontab -l
+  971  ls
+  972  scp  /var/www/DBBACKUP/amc_3.sql root@database.alexandermccabe.com
+  973  scp  /var/www/DBBACKUP/amc_test_3.sql root@database.alexandermccabe.com
+  974  scp  /var/www/DBBACKUP/amc_test_3.sql root@database.alexandermccabe.com:/root
+  975  scp  /var/www/DBBACKUP/amc_test_3.sql root@database.alexandermccabe.com:/root
+  976  telnet 10.10.221.201 22
+  977  ssh root@10.10.221.201
+  978  yum install nfs-utils nfs-utils-lib
+  979  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2
+  980  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2
+  981  df -h
+  982  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2 /var/www/AMC_FILESTORAGE_PROD2
+  983  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2 /var/www/AMC_FILESTORAGE_PROD2
+  984  vi /etc/fstab 
+  985  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2 /var/www/AMC_FILESTORAGE_PROD2
+  986  mount -a
+  987  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2 /var/www/AMC_FILESTORAGE_PROD2
+  988  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2 /var/www/AMC_FILESTORAGE_PROD2
+  989  vi /etc/fstab 
+  990  mount 10.10.221.201:/mnt/AMC /var/www/AMC_FILESTORAGE_PROD2
+  991  cd /var/www/AMC_FILESTORAGE_PROD2
+  992  df -h
+  993  vi /var/www/AMC_FILESTORAGE_PROD2/test2.txt
+  994  touch /var/www/AMC_FILESTORAGE_PROD2/test2.txt
+  995  vi /etc/fstab 
+  996  mount 10.10.221.201:/mnt/AMC /mnt/AMC
+  997  vi /etc/fstab 
+  998  mount 10.10.221.201:/var/www/AMC_FILESTRORAGE_PROD2 /var/www/AMC_FILESTORAGE_PROD2
+  999  cd /var/www/AMC_TEST/
+ 1000  find . | xargs grep 'zillow'
+ 1001  cat /etc/*release*
+ 1002  /usr/local/zend/bin/php -v
+ 1003  crontab -l
+ 1004  /usr/bin/php -v
+ 1005  httpd -v
+ 1006  contab -l
+ 1007  crontab -l
+ 1008  df -lh
+ 1009  free -m
+ 1010  top
+ 1011  uname -m
+ 1012  uname -ar
+ 1013  which git
+ 1014  sudo apt-get install git-core
+ 1015  wget http://kernel.org/pub/software/scm/git/git-1.7.12.3.tar.gz
+ 1016  yum install git
+ 1017  git config --global user.name "jamesqmao"
+ 1018  git config --global user.email "qinglianmaoequal@gmail.com"
+ 1019  cd /var/wwww/AMC_TEST/git_test
+ 1020  cd ..
+ 1021  cd /var
+ 1022  cd wwww
+ 1023  ls
+ 1024  cd /wwww
+ 1025  cd /www
+ 1026  cd www
+ 1027  cd /var/www/AMC_TEST/git_test
+ 1028  git init
+ 1029  touch readme
+ 1030  touch README
+ 1031  get add README
+ 1032  git add README
+ 1033  git commit -m 'first test'
+ 1034  git remote add origin https://github.com/jamesqmao/test.git
+ 1035  git push origin master
+ 1036  git push origin master
+ 1037  get add test.php
+ 1038  git add test.php
+ 1039  git commit -m 'dd'
+ 1040  git remote add origin https://github.com/jamesqmao/test.git
+ 1041  git push origin master
+ 1042  cd /etc/pki/tls/certs 
+ 1043  curl http://curl.haxx.se/ca/cacert.pem | awk 'split_after==1{n++;split_after=0} /-----END CERTIFICATE-----/ {split_after=1} {print > "cert" n ".pem"}'
+ 1044  c_rehash
+ 1045  git push origin master
+ 1046  cd /var/www/AMC_TEST/git_test
+ 1047  git push origin master
+ 1048  cd /etc/pki/tls/certs 
+ 1049  curl http://curl.haxx.se/ca/cacert.pem -o /etc/pki/tls/certs/ca-bundle.crt
+ 1050  cd /var/www/AMC_TEST/git_test
+ 1051  git push origin master
+ 1052  git update=server-info
+ 1053  git update-server-info
+ 1054  git push origin master
+ 1055  git init
+ 1056  git add test.php
+ 1057  git commit -m 'ddd'
+ 1058  git remote add origin https://github.com/jamesqmao/test.git
+ 1059  git push origin moaster
+ 1060  git push origin moaster
+ 1061  git update-server-info
+ 1062  git push origin moaster
+ 1063  git show-ref
+ 1064  git status 
+ 1065  git remote add origin https://github.com/jamesqmao/git_test.git
+ 1066  git push -u origin master
+ 1067  git remote add origin http://github.com/jamesqmao/git_test.git
+ 1068  git push -u origin master
+ 1069  yum install openssh-askpass
+ 1070  git push -u origin master
+ 1071  git push -u origin master
+ 1072  touch README.md
+ 1073  git init
+ 1074  git add README.md
+ 1075  git commit -m "first commit"
+ 1076  git remote add origin https://github.com/jamesqmao/git_test.git
+ 1077  git push -u origin master
+ 1078  git commit -m "2 b
+"
+ 1079  git push -u origin master
+ 1080  git diff
+ 1081  git commit -m "3 v"
+ 1082  git push -u origin master
+ 1083  git diff
+ 1084  git commit -m "3 v"
+ 1085  git push -u origin master
+ 1086  git diff
+ 1087  git commit -m "4 v"
+ 1088  git push -u origin master
+ 1089  git diff
+ 1090  git log
+ 1091  git init
+ 1092  git remote add origin https://github.com/jamesqmao/git_test.git
+ 1093  git commit -m "4 v"
+ 1094  git push -u origin master
+ 1095  git diff
+ 1096  git remote
+ 1097  git push origin
+ 1098  git diff
+ 1099  git add .
+ 1100  git diff test2.php
+ 1101  git diff test.php
+ 1102  git whatchanged -n 1
+ 1103  git log
+ 1104  git status
+ 1105  git commit
+ 1106  git commit -m "5 v"
+ 1107  git diff
+ 1108  history >gitSetup.txt
+ 1109  git config remote.origin.url git@github.com:jamesqmao/git_test.git
+ 1110  git push -u origin master
+ 1111  git commit -m "6 v"
+ 1112  git push -u origin master
+ 1113  scp /root/.ssh/id_rsa.pub jamesqmao@git.repo:id_rsa.tmp
+ 1114  ssh jamesqmao@git.repo
+ 1115  ssh://git#github.com/jamesqmao/git_test.git
+ 1116  git remote set-url git@github.com:jamesqmao/git_test.git
+ 1117  ssh ://git#github.com/jamesqmao/git_test.git
+ 1118  ssh -vv jamesqmao@github.com
+ 1119  git push -u origin master
+ 1120  git config --global credential.helper 'cache --timeout 3600'
+ 1121  git push -u origin master
+ 1122  git push -u origin master
+ 1123  git commit -m "7 v"
+ 1124  git push -u origin master
+ 1125  history >gitSetup.txt
